@@ -76,15 +76,15 @@
       "modifiedAt": "2024-03-07T00:07:36.510Z"
     },
     {
-      "id": "QPoMqGjoQ",
-      "uuid": "7b0d7857-df83-4276-8ef2-b7bbe4c2c183",
-      "firstName": "First",
-      "lastName": "Last",
-      "username": "first_last",
-      "password": "$2a$10$ixznbaEmqgA3aA1opfNjU.zfQk88eEmKRYPM9M6l9wIuvGJUvHQQy",
+      "id": "Srg80gteq",
+      "uuid": "280ff264-be34-40c5-8190-63ce3df14d79",
+      "firstName": "Leandro",
+      "lastName": "Reis",
+      "username": "leandro.reis",
+      "password": "$2a$10$ZPMXmXr8OEKENo2EsLO1x.XpVKwepQ6GmNmk45T8MZ.J6tlH.WVJy",
       "balance": 0,
-      "createdAt": "2024-05-03T14:27:13.247Z",
-      "modifiedAt": "2024-05-03T14:27:13.247Z"
+      "createdAt": "2024-05-06T20:42:16.342Z",
+      "modifiedAt": "2024-05-06T20:42:16.342Z"
     }
   ],
   "contacts": [
@@ -264,17 +264,6 @@
       "isDeleted": false,
       "createdAt": "2024-01-26T14:01:01.815Z",
       "modifiedAt": "2024-03-07T08:44:31.174Z"
-    },
-    {
-      "id": "5g1VbhmEl",
-      "uuid": "3cc780f9-cb2d-44a2-bc8d-e5207dbe76f0",
-      "userId": "QPoMqGjoQ",
-      "bankName": "Test Bank",
-      "accountNumber": "246810000",
-      "routingNumber": "123456789",
-      "isDeleted": false,
-      "createdAt": "2024-05-03T14:29:39.175Z",
-      "modifiedAt": "2024-05-03T14:29:39.175Z"
     }
   ],
   "transactions": [
