@@ -4,7 +4,7 @@ const env = require('../../../cypress.env.json');
 
 describe("User tests", function () {
     beforeEach(() => {
-        cy.task("db:seed");
+        //cy.task("db:seed");
         cy.visit('/');
         cy.title()
             .should('eq', 'Cypress Real World App');
@@ -17,14 +17,14 @@ describe("User tests", function () {
         cy.get('#firstName').type('Leandro');
         cy.get('#lastName').type('Reis');
         cy.get('#username').type('leandro.reis');
-        cy.get('#password').type(env.password_default, { log: false });
-        cy.get('#confirmPassword').type(env.password_default, { log: false });
-        cy.get('[data-test="signup-submit"]').click();
+        cy.get('#password').type(env.default_password, { log: false });
+        cy.get('#confirmPassword').type(env.default_password, { log: false });
+        cy.get("[type='submit']").click();
         cy.location('pathname')
-            .should('eq', '/signin');
+            .should('eq', '/signup');
     })
 
-    it.only('User register with blank field', () => {
+    it('User register with blank field', () => {
         const requiredFields = [
             { field: '#firstName', name: 'First Name' },
             { field: '#lastName', name: 'Last Name' },
@@ -45,14 +45,41 @@ describe("User tests", function () {
     })
 
     it('User register with inválid password', () => {
-
+        cy.get('#firstName').type('Leandro');
+        cy.get('#lastName').type('Reis');
+        cy.get('#username').type('leandro.reis');
+        cy.get('#password').type(env.invalid_password, { log: false });
+        cy.get('.MuiFormHelperText-filled.MuiFormHelperText-root')
+            .should('be.visible')
+            .should('contain', 'Password must contain at least 4 characters');
     })
 
     it("User register with passwords that don't match", () => {
-
+        cy.get('#firstName').type('Leandro');
+        cy.get('#lastName').type('Reis');
+        cy.get('#username').type('leandro.reis');
+        cy.get('#password').type(env.default_password, { log: false });
+        cy.get('#confirmPassword').type(env.invalid_password, { log: false });
+        cy.get('.MuiFormHelperText-filled.MuiFormHelperText-root')
+            .should('be.visible')
+            .should('contain', 'Password does not match');
     })
 
     it('user register with the “confirm password” field blank', () => {
+        cy.get('#firstName').type('Leandro');
+        cy.get('#lastName').type('Reis');
+        cy.get('#username').type('leandro.reis');
+        cy.get('#password').type(env.default_password, { log: false });
 
+        cy.get('#confirmPassword').click();
+        cy.get('body').click();
+        cy.get('#confirmPassword-helper-text')
+            .should('be.visible')
+            .should('contain', 'Confirm your password');
+        cy.get("[type='submit']")
+            .should('be.disabled');
+        // cy.get('.MuiFormHelperText-filled.MuiFormHelperText-root')
+        //     .should('be.visible')
+        //     .should('contain', 'Password does not match');
     })
 })
