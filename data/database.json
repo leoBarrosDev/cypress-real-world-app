@@ -76,15 +76,15 @@
       "modifiedAt": "2024-03-07T00:07:36.510Z"
     },
     {
-      "id": "Srg80gteq",
-      "uuid": "280ff264-be34-40c5-8190-63ce3df14d79",
+      "id": "qru27mtrT",
+      "uuid": "03aed80b-3435-4f26-a36d-38c2b39a1ac1",
       "firstName": "Leandro",
       "lastName": "Reis",
       "username": "leandro.reis",
-      "password": "$2a$10$ZPMXmXr8OEKENo2EsLO1x.XpVKwepQ6GmNmk45T8MZ.J6tlH.WVJy",
+      "password": "$2a$10$jznA0MrcrhchaDpWJIj40.W/tk.yRNPIk0sdeDVYm5298sXPA1ZIu",
       "balance": 0,
-      "createdAt": "2024-05-06T20:42:16.342Z",
-      "modifiedAt": "2024-05-06T20:42:16.342Z"
+      "createdAt": "2024-05-08T11:28:01.669Z",
+      "modifiedAt": "2024-05-08T11:28:01.669Z"
     }
   ],
   "contacts": [
