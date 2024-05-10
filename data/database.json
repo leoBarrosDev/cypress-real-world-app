@@ -76,103 +76,26 @@
       "modifiedAt": "2024-03-07T00:07:36.510Z"
     },
     {
-      "id": "yIjno-VUv",
-      "uuid": "0962e0b5-e1f6-442e-87cd-0847cd7c99cb",
+      "id": "zRF2tyMUn",
+      "uuid": "ede4f80a-f449-4c13-93cf-b1eeb2002aca",
       "firstName": "Leandro",
       "lastName": "Reis",
       "username": "leandro.reis",
-      "password": "$2a$10$hmZ0qrZXkDjwFJB.2g6c9OBwTbhLU4MUBcCO4mAwzxIgg37yWJKz.",
+      "password": "$2a$10$7kQnxR.u5g/FuAmEuG/7yeC9uGp/6TB6LrK7zeX0L0FsSCfE9FX2m",
       "balance": 0,
-      "createdAt": "2024-05-10T01:21:01.438Z",
-      "modifiedAt": "2024-05-10T01:21:01.438Z"
+      "createdAt": "2024-05-10T14:25:30.372Z",
+      "modifiedAt": "2024-05-10T14:25:30.372Z"
     },
     {
-      "id": "3Ui5ytxBH",
-      "uuid": "fb47e804-d3b5-40e1-963c-484078258f66",
+      "id": "ymjUNbfw2",
+      "uuid": "c57fa0a5-2ef0-486c-970b-036ce435ddc2",
       "firstName": "Leandro",
       "lastName": "Reis",
       "username": "leandro.reis",
-      "password": "$2a$10$fTfmTtZ1ZQL8fMO6yssIfuOem2gBIHMDEjWMzm0FPaLYgVx6JYH0C",
+      "password": "$2a$10$bLLEORBQT78SCzusWZxHRO4g6VcflBid.jtvLl6Tz1o8XAZX6RsFi",
       "balance": 0,
-      "createdAt": "2024-05-10T01:21:32.716Z",
-      "modifiedAt": "2024-05-10T01:21:32.716Z"
-    },
-    {
-      "id": "kJ46PFiUe",
-      "uuid": "e747db74-f2c9-4234-8d77-4718d9d512fa",
-      "firstName": "Leandro",
-      "lastName": "Reis",
-      "username": "leandro.reis",
-      "password": "$2a$10$DCzPBWbsh9JyjTnByF1eJ.kUjeTqCWax3OE6OMUoDTUDFuDz1yF2q",
-      "balance": 0,
-      "createdAt": "2024-05-10T01:22:43.528Z",
-      "modifiedAt": "2024-05-10T01:22:43.528Z"
-    },
-    {
-      "id": "MP5Gd3E8s",
-      "uuid": "bf20c598-c7f5-4222-a1ed-2ce2345e7184",
-      "firstName": "Leandro",
-      "lastName": "Reis",
-      "username": "leandro.reis",
-      "password": "$2a$10$NQRShYBIG7W6L4NtQMDwlu4cTREIZZwYjGiyZMJseG3Hv3aHA4Nma",
-      "balance": 0,
-      "createdAt": "2024-05-10T01:27:04.956Z",
-      "modifiedAt": "2024-05-10T01:27:04.956Z"
-    },
-    {
-      "id": "nji0RLusu",
-      "uuid": "90a4bf27-856f-438d-b64a-0f8480570b50",
-      "firstName": "Leandro",
-      "lastName": "Reis",
-      "username": "leandro.reis",
-      "password": "$2a$10$u/KO5LJ7a7Ng9bgrntL8X..S8d/yfXxB039xH/vAW/MaEuPCrcYKW",
-      "balance": 0,
-      "createdAt": "2024-05-10T01:29:54.041Z",
-      "modifiedAt": "2024-05-10T01:29:54.041Z"
-    },
-    {
-      "id": "7yiB_ufxy",
-      "uuid": "66da11aa-e170-410c-9890-78c4944ca5b5",
-      "firstName": "Leandro",
-      "lastName": "Reis",
-      "username": "leandro.reis",
-      "password": "$2a$10$DCgGhPEJJ/iFlxMEEbElmeyOBtDe3Migk7bobjcu3XIFGznZg11hO",
-      "balance": 0,
-      "createdAt": "2024-05-10T01:45:17.728Z",
-      "modifiedAt": "2024-05-10T01:45:17.728Z"
-    },
-    {
-      "id": "dnuomMMtm",
-      "uuid": "6f567872-33f1-4ca0-9bcd-2d9752b89ebe",
-      "firstName": "Leandro",
-      "lastName": "Reis",
-      "username": "leandro.reis",
-      "password": "$2a$10$YWZ67mqnvfRAbxov1bmX3eRmUOiSZv7Uo/k4GegiCBRltOm/Z2exu",
-      "balance": 0,
-      "createdAt": "2024-05-10T01:50:38.192Z",
-      "modifiedAt": "2024-05-10T01:50:38.192Z"
-    },
-    {
-      "id": "gHnP9r4Ze",
-      "uuid": "1f0ddf90-d6fa-4834-8e5e-bfc93b448153",
-      "firstName": "Leandro",
-      "lastName": "Reis",
-      "username": "leandro.reis",
-      "password": "$2a$10$r7TkZZmp71oqmT/8krFoT.flfMsOk1xOI7K0TgGPydn7EmXlA5DUq",
-      "balance": 0,
-      "createdAt": "2024-05-10T01:50:57.993Z",
-      "modifiedAt": "2024-05-10T01:50:57.993Z"
-    },
-    {
-      "id": "isJn3PmrJ",
-      "uuid": "19403a0e-c92e-41c1-8ce5-dc299b7ee4a1",
-      "firstName": "Leandro",
-      "lastName": "Reis",
-      "username": "leandro.reis",
-      "password": "$2a$10$FKyEwEYr7KFzpTIWQXeMwun9EjZI86CHnvac0rRqGiFokcu5hbHFm",
-      "balance": 0,
-      "createdAt": "2024-05-10T01:52:21.026Z",
-      "modifiedAt": "2024-05-10T01:52:21.026Z"
+      "createdAt": "2024-05-10T20:31:21.215Z",
+      "modifiedAt": "2024-05-10T20:31:21.215Z"
     }
   ],
   "contacts": [

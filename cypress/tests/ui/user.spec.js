@@ -44,11 +44,11 @@ describe("User tests", function () {
         })
     })
 
-    it('User register with inválid password', () => {
+    it('User registration with shorter password', () => {
         cy.get('#firstName').type('Leandro');
         cy.get('#lastName').type('Reis');
         cy.get('#username').type('leandro.reis');
-        cy.get('#password').type(env.invalid_password, { log: false });
+        cy.get('#password').type(env.litle_password, { log: false });
         cy.get('.MuiFormHelperText-filled.MuiFormHelperText-root')
             .should('be.visible')
             .should('contain', 'Password must contain at least 4 characters');
