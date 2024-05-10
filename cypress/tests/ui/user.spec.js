@@ -21,7 +21,7 @@ describe("User tests", function () {
         cy.get('#confirmPassword').type(env.default_password, { log: false });
         cy.get("[type='submit']").click();
         cy.location('pathname')
-            .should('eq', '/signup');
+            .should('eq', '/signin');
     })
 
     it('User register with blank field', () => {
@@ -78,8 +78,5 @@ describe("User tests", function () {
             .should('contain', 'Confirm your password');
         cy.get("[type='submit']")
             .should('be.disabled');
-        // cy.get('.MuiFormHelperText-filled.MuiFormHelperText-root')
-        //     .should('be.visible')
-        //     .should('contain', 'Password does not match');
     })
 })
