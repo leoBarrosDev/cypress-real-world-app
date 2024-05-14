@@ -11,7 +11,7 @@
       "phoneNumber": "398-225-9900",
       "avatar": "https://avatars.dicebear.com/api/human/uBmeaz5pX.svg",
       "defaultPrivacyLevel": "public",
-      "balance": 150953,
+      "balance": 0,
       "createdAt": "2023-03-09T22:26:40.101Z",
       "modifiedAt": "2024-03-07T10:07:57.580Z"
     },
@@ -26,7 +26,7 @@
       "phoneNumber": "410-786-2112",
       "avatar": "https://avatars.dicebear.com/api/human/GjWovtg2hr.svg",
       "defaultPrivacyLevel": "private",
-      "balance": 93026,
+      "balance": 2093026,
       "createdAt": "2023-04-23T13:52:10.979Z",
       "modifiedAt": "2024-03-07T09:07:46.709Z"
     },
@@ -74,28 +74,6 @@
       "balance": 49474,
       "createdAt": "2023-12-07T04:39:38.383Z",
       "modifiedAt": "2024-03-07T00:07:36.510Z"
-    },
-    {
-      "id": "zRF2tyMUn",
-      "uuid": "ede4f80a-f449-4c13-93cf-b1eeb2002aca",
-      "firstName": "Leandro",
-      "lastName": "Reis",
-      "username": "leandro.reis",
-      "password": "$2a$10$7kQnxR.u5g/FuAmEuG/7yeC9uGp/6TB6LrK7zeX0L0FsSCfE9FX2m",
-      "balance": 0,
-      "createdAt": "2024-05-10T14:25:30.372Z",
-      "modifiedAt": "2024-05-10T14:25:30.372Z"
-    },
-    {
-      "id": "ymjUNbfw2",
-      "uuid": "c57fa0a5-2ef0-486c-970b-036ce435ddc2",
-      "firstName": "Leandro",
-      "lastName": "Reis",
-      "username": "leandro.reis",
-      "password": "$2a$10$bLLEORBQT78SCzusWZxHRO4g6VcflBid.jtvLl6Tz1o8XAZX6RsFi",
-      "balance": 0,
-      "createdAt": "2024-05-10T20:31:21.215Z",
-      "modifiedAt": "2024-05-10T20:31:21.215Z"
     }
   ],
   "contacts": [
@@ -9877,6 +9855,30 @@
       "requestResolvedAt": "",
       "createdAt": "2023-11-10T07:15:28.127Z",
       "modifiedAt": "2024-03-07T21:58:09.668Z"
+    },
+    {
+      "id": "jTyh8FC26",
+      "uuid": "da9909b1-8b79-4a12-bf77-5d2cc5f0ceb9",
+      "amount": 1000000,
+      "description": "test description",
+      "receiverId": "GjWovtg2hr",
+      "senderId": "uBmeaz5pX",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2024-05-14T20:03:08.876Z",
+      "modifiedAt": "2024-05-14T20:03:08.876Z"
+    },
+    {
+      "id": "gn9dObw2K",
+      "uuid": "d2617e41-4a4d-4595-8948-9b29936e8766",
+      "amount": 1000000,
+      "description": "test description",
+      "receiverId": "GjWovtg2hr",
+      "senderId": "uBmeaz5pX",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2024-05-14T20:07:49.612Z",
+      "modifiedAt": "2024-05-14T20:07:49.612Z"
     }
   ],
   "likes": [
@@ -10453,6 +10455,26 @@
       "isRead": false,
       "createdAt": "2024-02-01T18:53:45.699Z",
       "modifiedAt": "2024-03-07T17:13:52.110Z"
+    },
+    {
+      "id": "KUamLq2I3H",
+      "uuid": "8bae9577-52f8-4110-b32b-ad1742b3c69c",
+      "userId": "GjWovtg2hr",
+      "transactionId": "jTyh8FC26",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2024-05-14T20:03:08.980Z",
+      "modifiedAt": "2024-05-14T20:03:08.980Z"
+    },
+    {
+      "id": "a0b58MjV4O",
+      "uuid": "f205c6a1-4fb2-44dc-a21c-b2bd444d02ec",
+      "userId": "GjWovtg2hr",
+      "transactionId": "gn9dObw2K",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2024-05-14T20:07:49.703Z",
+      "modifiedAt": "2024-05-14T20:07:49.703Z"
     }
   ],
   "banktransfers": [
@@ -11005,6 +11027,26 @@
       "transactionId": "gaggAe7wNoiC",
       "createdAt": "2023-03-24T22:18:19.407Z",
       "modifiedAt": "2024-03-07T13:32:42.472Z"
+    },
+    {
+      "id": "hfuNHbbVtb",
+      "uuid": "1aba4195-240e-445e-9701-493d575a81d5",
+      "userId": "uBmeaz5pX",
+      "amount": 849047,
+      "transactionId": "jTyh8FC26",
+      "type": "withdrawal",
+      "createdAt": "2024-05-14T20:03:08.896Z",
+      "modifiedAt": "2024-05-14T20:03:08.896Z"
+    },
+    {
+      "id": "7zb_6wCwy2",
+      "uuid": "7b806ebb-42a3-40c7-811a-eefed924ffd2",
+      "userId": "uBmeaz5pX",
+      "amount": 1000000,
+      "transactionId": "gn9dObw2K",
+      "type": "withdrawal",
+      "createdAt": "2024-05-14T20:07:49.643Z",
+      "modifiedAt": "2024-05-14T20:07:49.643Z"
     }
   ]
 }
