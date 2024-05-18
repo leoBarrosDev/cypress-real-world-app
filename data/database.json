@@ -74,28 +74,6 @@
       "balance": 49474,
       "createdAt": "2023-12-07T04:39:38.383Z",
       "modifiedAt": "2024-03-07T00:07:36.510Z"
-    },
-    {
-      "id": "D18XWihJs",
-      "uuid": "b2611b2d-cfd7-4819-8bcf-0ab8367e9034",
-      "firstName": "Leandro",
-      "lastName": "Reis",
-      "username": "leandro.reis",
-      "password": "$2a$10$UHUgpYV4pdo0ftoeenCWZOnBruHgm9Nst6gGNNWXKe9tq.6VHeRa.",
-      "balance": 0,
-      "createdAt": "2024-05-18T18:49:18.205Z",
-      "modifiedAt": "2024-05-18T18:49:18.205Z"
-    },
-    {
-      "id": "MsHMrU5w2",
-      "uuid": "0262b51d-afa6-4249-92f9-61d9dffe4615",
-      "firstName": "Leandro",
-      "lastName": "Reis",
-      "username": "leandro.reis",
-      "password": "$2a$10$x.XcI0D0T8Jg4N09TUUHGOomdBdKZQMUJO/8xLJGAhBDWiX4FZCJa",
-      "balance": 0,
-      "createdAt": "2024-05-18T18:50:00.056Z",
-      "modifiedAt": "2024-05-18T18:50:00.056Z"
     }
   ],
   "contacts": [
