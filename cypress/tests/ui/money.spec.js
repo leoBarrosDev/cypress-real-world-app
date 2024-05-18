@@ -1,8 +1,7 @@
 /// <reference types="cypress" />
 
-import { faker } from '@faker-js/faker'
-
 const env = require('../../../cypress.env.json');
+const value = 10000;
 
 describe('Money', () => {
     beforeEach(() => {
@@ -15,12 +14,11 @@ describe('Money', () => {
             .should('eq', '/');
     })
     it('Send money with sufficient found', () => {
-        const value = 100;
         cy.get('.MuiButton-label').click();
         cy.get("[data-test='user-list-item-GjWovtg2hr']")
             .should('be.visible')
             .click();
-        cy.get('#amount').type(value);
+        cy.get('#amount').type(100);
         cy.get('#transaction-create-description-input').type('test description');
         cy.get("[type='submit']").eq(1).click();
 
@@ -46,8 +44,7 @@ describe('Money', () => {
             });
     })
 
-    it.only('Send money with insufficient found', () => {
-        const value = 10000;
+    it('Send money with insufficient found', () => {
 
         cy.get('.MuiButton-label').click();
         cy.get("[data-test='user-list-item-GjWovtg2hr']")
@@ -68,7 +65,20 @@ describe('Money', () => {
             });
     })
 
-    it('Send money with zero found', () => {
-
+    it.only('Send money with zero found', () => {
+        cy.get('.MuiButton-label').click();
+        cy.get("[data-test='user-list-item-GjWovtg2hr']")
+            .should('be.visible')
+            .click();
+        cy.get('#amount').type(value);
+        cy.get('#transaction-create-description-input').type('test description');
+        cy.get("[data-test='sidenav-user-balance']")
+            .invoke('text')
+            .then((text) => {
+                const balance = parseFloat(text.replace(/[^0-9.-]+/g, ""));
+                if (balance == 0) {
+                    cy.get("[type='submit']").should('be.desabled');
+                }
+            });
     })
 })
